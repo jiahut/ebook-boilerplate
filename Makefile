@@ -37,6 +37,7 @@ pdf: markdown
 	pandoc -s $(filename).md -o $(filename).pdf \
 		--title-prefix $(title) \
 		--listings -H listings-setup.tex \
+		--pdf-engine=xelatex \
 		--template=template/template.tex \
 		--toc
 
