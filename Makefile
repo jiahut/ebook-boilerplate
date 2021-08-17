@@ -1,5 +1,5 @@
 include_dir=build
-source=chapters/*.md
+source=chapters2/*.md
 title='电子书模板'
 filename='ebook'
 
