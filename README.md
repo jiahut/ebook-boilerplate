@@ -63,3 +63,7 @@ gem install kindlegen
 Windows用户安装 Kindlegen 参见: [创建 Kindle 电子书 ](https://github.com/sethvincent/ebook/tree/master/kindlegen-mac/docs/chinese)
 
 
+>  install `sarasa-gothic-sc-*.ttf` fonts into `~/.local/share/fonts/`
+
+>  docker run --rm -it -e HOME=$HOME  -v $HOME:$HOME  -v $PWD:/workspace -w /workspace  thomasweise/docker-pandoc  make pdf
+
